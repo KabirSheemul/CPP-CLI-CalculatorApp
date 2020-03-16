@@ -1,0 +1,5 @@
+﻿  NativeCalculator.cpp
+  NativeCalculator.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+     Creating library D:\Phoenix\Training\CalculatorApp\CalculatorApp\Debug\CalculatorWrap.lib and object D:\Phoenix\Training\CalculatorApp\CalculatorApp\Debug\CalculatorWrap.exp
+  CalculatorWrap.vcxproj -> D:\Phoenix\Training\CalculatorApp\CalculatorApp\Debug\CalculatorWrap.dll
+  CalculatorWrap.vcxproj -> D:\Phoenix\Training\CalculatorApp\CalculatorApp\Debug\CalculatorWrap.pdb (Partial PDB)
