@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="include\Calculator.h" />
     <ClInclude Include="include\stdafx.h" />
+    <ClInclude Include="include\Symbols.h" />
     <ClInclude Include="include\targetver.h" />
   </ItemGroup>
   <ItemGroup>

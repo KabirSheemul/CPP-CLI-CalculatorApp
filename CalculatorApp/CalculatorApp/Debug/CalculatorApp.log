@@ -1,4 +1,9 @@
-﻿  CalculatorApp.cpp
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  CalculatorApp.cpp
+  CalculatorManager.cpp
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
   AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
   CalculatorApp.vcxproj -> D:\Phoenix\Training\CalculatorApp\CalculatorApp\Debug\CalculatorApp.exe
   CalculatorApp.vcxproj -> D:\Phoenix\Training\CalculatorApp\CalculatorApp\Debug\CalculatorApp.pdb (Partial PDB)

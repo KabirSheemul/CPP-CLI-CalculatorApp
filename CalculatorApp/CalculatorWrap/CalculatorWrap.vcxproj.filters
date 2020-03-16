@@ -28,16 +28,19 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Include\CalculatorWrap.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Include\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Include\stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NativeCalculator.h">
+    <ClInclude Include="Include\CalculatorWrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NativeCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Symbols.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -51,7 +54,7 @@
     <ClCompile Include="source\stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NativeCalculator.cpp">
+    <ClCompile Include="source\NativeCalculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

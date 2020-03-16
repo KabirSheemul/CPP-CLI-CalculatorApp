@@ -1,13 +1,14 @@
 #pragma once
-//#include "CalculatorWrap.h"
 
-#include "NativeCalculator.h"
 
+class NativeCalculator;
 
 ref class CalculatorManager {
 
 	CalculatorWrap ^calculator;
+	NativeCalculator *nativeCalculator;
 public:
 	CalculatorManager();
 	System::String^ calculate(System::String^ inputStr);
+	System::String^ calculateNative(System::String^ inputStr);
 };

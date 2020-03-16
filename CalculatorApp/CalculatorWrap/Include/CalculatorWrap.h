@@ -1,5 +1,6 @@
 #pragma once
-#include "Calculator.h"
+
+class Calculator;
 
 public ref class CalculatorWrap {
 private:

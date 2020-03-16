@@ -4,10 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalculatorApp", "CalculatorApp\CalculatorApp.vcxproj", "{71661FD8-B45E-4D30-85FC-6312847DE132}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71D5A903-8FFB-484B-9C0A-6F2EC61B9878} = {71D5A903-8FFB-484B-9C0A-6F2EC61B9878}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalculatorLib", "CalculatorLib\CalculatorLib.vcxproj", "{71D5A903-8FFB-484B-9C0A-6F2EC61B9878}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalculatorWrap", "CalculatorWrap\CalculatorWrap.vcxproj", "{EE6F37BC-49A6-4048-A8BF-00CF24490E99}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71D5A903-8FFB-484B-9C0A-6F2EC61B9878} = {71D5A903-8FFB-484B-9C0A-6F2EC61B9878}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

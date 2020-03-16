@@ -2,6 +2,7 @@
 
 #include "stdafx.h"
 #include "CalculatorWrap.h"
+#include "Calculator.h"
 #include "iostream"
 
 using namespace System;

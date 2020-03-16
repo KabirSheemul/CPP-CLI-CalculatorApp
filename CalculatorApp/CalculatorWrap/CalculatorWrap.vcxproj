@@ -88,7 +88,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;CALCULATORWRAP_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <AdditionalIncludeDirectories>..\CalculatorWrap\Include;..\CalculatorLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -148,14 +148,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\CalculatorWrap.h" />
+    <ClInclude Include="Include\NativeCalculator.h" />
     <ClInclude Include="Include\resource.h" />
     <ClInclude Include="Include\stdafx.h" />
-    <ClInclude Include="NativeCalculator.h" />
+    <ClInclude Include="Include\Symbols.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NativeCalculator.cpp" />
     <ClCompile Include="source\AssemblyInfo.cpp" />
     <ClCompile Include="source\CalculatorWrap.cpp" />
+    <ClCompile Include="source\NativeCalculator.cpp" />
     <ClCompile Include="source\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
